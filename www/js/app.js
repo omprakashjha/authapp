@@ -6,8 +6,8 @@ window.addEventListener('load', function() {
     var expiresAt;
   
     var webAuth = new auth0.WebAuth({
-      domain: 'omprakashjha.auth0.com',
-      clientID: 'nIGisqmcrcpLShTdLhp3eUFy75W7Rdec',
+      domain: '',
+      clientID: '',
       responseType: 'token id_token',
       scope: 'openid',
       redirectUri: window.location.href
